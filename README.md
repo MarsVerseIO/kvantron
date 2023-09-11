@@ -9,9 +9,12 @@
 Примеры curl:<br>
 1. Установить парметры для героя<br>
   curl -X POST http://localhost:3000/setHeroStats -H "Content-Type: application/json" -d '{ "name": "Hero1", "strength": 111, "dexterity": 222, "intellect": 333, "isInvincible": true }'<br>
+<br>
 2. Получить параметры героя<br>
   curl -X GET http://localhost:3000/getHeroStats<br>
+<br>
 3. Загрузить картинку героя<br>
   curl -X POST http://localhost:3000/uploadHeroImage -F image=@/путь/до/картинки/image.png -H "Content-Type: multipart/form-data"<br>
+<br>
 4. Получить картинку героя:<br>
   curl -X GET http://localhost:3000/getHeroImage > image.png<br>
