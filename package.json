@@ -1,0 +1,10 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1"
+  }
+}
