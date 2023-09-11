@@ -7,6 +7,7 @@
 2. docker run -p 3000:3000 kvantron<br>
 <br>
 Примеры curl:<br>
+
 1. Установить парметры для героя<br>
   curl -X POST http://localhost:3000/setHeroStats -H "Content-Type: application/json" -d '{ "name": "Hero1", "strength": 111, "dexterity": 222, "intellect": 333, "isInvincible": true }'<br>
 <br>
